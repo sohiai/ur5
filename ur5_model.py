@@ -58,7 +58,7 @@ def ur10_copy() -> np.ndarray:  # pragma: no cover
         ]
     )
 
-def ur10() -> np.ndarray:  # pragma: no cover
+def ur10_site() -> np.ndarray:  # pragma: no cover
     """Get UR10 MDH model."""
     return np.array(
         [
@@ -70,18 +70,3 @@ def ur10() -> np.ndarray:  # pragma: no cover
             [np.pi / 2, 0, np.pi, 116.6],
         ]
     )
-
-def ur5() -> npndarray: #
-    """Get UR5 MDH model."""
-	return np.array(
-		[
-			[],
-			[],
-			[],
-			[],
-			[],
-			[],
-		]
-	)	
-	
-
